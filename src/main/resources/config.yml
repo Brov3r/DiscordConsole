@@ -1,0 +1,11 @@
+# URL for Discord webhook
+webhookURL: "..."
+# Console username
+consoleUsername: "Console"
+# Avatar URL for console
+consoleAvatarURL: "https://example.com/avatar.png"
+# Chat ID where commands will be received
+chatID: "..."
+# Role IDs that are allowed to send commands to the server console
+cmdRoleWhiteList:
+  - "1251579364181672051"

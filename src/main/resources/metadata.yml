@@ -1,0 +1,17 @@
+name: "Discord Console"
+id: "discord-console"
+description: "Discord Console"
+author: "Brov3r"
+version: "%PROJECT_VERSION%"
+environment: "server"
+license: "MIT"
+contacts: "https://github.com/brov3r/"
+patches:
+  - "com.brov3r.discordconsole.patches.PatchDebugLog"
+  - "com.brov3r.discordconsole.patches.PatchQuitCommand"
+entrypoints:
+  - "com.brov3r.discordconsole.Main"
+dependencies:
+  pz-core: ">=41.78.16"
+  avrix-loader: ">=1.2.0"
+  discord-api: ">=1.1"
