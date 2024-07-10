@@ -1,6 +1,6 @@
 name: "Discord Console"
 id: "discord-console"
-description: "Discord Console"
+description: "Plugin that allows you to output logs to discord chat and send commands from discord to the server console"
 author: "Brov3r"
 version: "%PROJECT_VERSION%"
 environment: "server"
