@@ -7,11 +7,11 @@ environment: "server"
 license: "MIT"
 contacts: "https://github.com/brov3r/"
 patches:
-  - "com.brov3r.discordconsole.patches.PatchDebugLog"
+  - "com.brov3r.discordconsole.patches.PatchLogger"
   - "com.brov3r.discordconsole.patches.PatchQuitCommand"
 entrypoints:
   - "com.brov3r.discordconsole.Main"
 dependencies:
   pz-core: ">=41.78.16"
-  avrix-loader: ">=1.2.0"
+  avrix-loader: ">=1.5.0"
   discord-api: ">=1.1"

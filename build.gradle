@@ -8,7 +8,7 @@ plugins {
 
 
 group = 'com.brov3r.discordconsole'
-version = '1.0'
+version = '1.1'
 
 
 /**
@@ -54,7 +54,7 @@ dependencies {
     /**
      * Avrix Loader
      */
-    compileOnly files('./libs/Avrix-Core-1.2.0.jar')
+    compileOnly files('./libs/Avrix-Core-1.5.1.jar')
 }
 
 /**

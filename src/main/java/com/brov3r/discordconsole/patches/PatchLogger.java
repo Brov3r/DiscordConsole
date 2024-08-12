@@ -7,11 +7,11 @@ import javassist.CannotCompileException;
 /**
  * DebugLog patcher
  */
-public class PatchDebugLog extends ClassTransformer {
+public class PatchLogger extends ClassTransformer {
     /**
      * Constructor for creating a {@link ClassTransformer} object.
      */
-    public PatchDebugLog() {
+    public PatchLogger() {
         super("zombie.debug.DebugLog");
     }
 

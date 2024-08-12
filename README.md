@@ -5,7 +5,7 @@
 <p align="center">
     <img alt="PZ Version" src="https://img.shields.io/badge/Project_Zomboid-41.78.16-blue">
     <img alt="Java version" src="https://img.shields.io/badge/Java-17-orange">
-    <img alt="Avrix" src="https://img.shields.io/badge/AvrixLoader->=1.2.0-red">
+    <img alt="Avrix" src="https://img.shields.io/badge/AvrixLoader->=1.5.0-red">
 </p>
 
 **Discord Console** - plugin that allows you to output logs to discord chat and send commands from discord to the server console.
